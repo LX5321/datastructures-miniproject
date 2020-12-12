@@ -2,7 +2,7 @@
 int main(int argc, char const *argv[])
 {
 	processFile pF;
-	pF.parseFile("examples/example.txt");
+	pF.parseFile("data/students.txt");
 	pF.printCourseTable();
 	return 0;
 }
