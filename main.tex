@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{minted}
+\usepackage{lmodern}
+\usemintedstyle{lovelace}
+\definecolor{bg}{HTML}{ffffff}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Alexander Roque Rodrigues (SP202202), Dinaaz Risha Shaikh (SP202205)}
+\title{Student Information DB}
+\makeindex
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Source Codes}
+\subsection{C++}
+\inputminted[linenos, breaklines, tabsize=4, bgcolor=bg]{cpp}{classes.hpp}
+\end{document}
